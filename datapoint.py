@@ -14,4 +14,4 @@ class DataPoint():
         return f'Date:{self.date}, volume:{self.volume}'
 
     def __repr__(self):
-        return f'<Date:{self.date}, volume:{self.volume}>'
+        return f'{{Date:{self.date}, volume:{self.volume}}}'
